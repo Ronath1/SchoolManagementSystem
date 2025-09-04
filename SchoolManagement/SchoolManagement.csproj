@@ -63,6 +63,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -94,6 +97,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images11212.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-back-to-school-chalkboard-with-supplies-and-math-equations-for-classroom-picture-image_16297416.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

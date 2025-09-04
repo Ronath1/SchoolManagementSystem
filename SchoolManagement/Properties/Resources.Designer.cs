@@ -89,5 +89,16 @@ namespace SchoolManagement.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_back_to_school_chalkboard_with_supplies_and_math_equations_for_classroom_picture_image_16297416 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-back-to-school-chalkboard-with-supplies-and-math-equations-for-classroom-" +
+                        "picture-image_16297416", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
