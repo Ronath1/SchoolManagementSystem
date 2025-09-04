@@ -111,6 +111,7 @@
             this.btnlogin.TabIndex = 6;
             this.btnlogin.Text = "Login";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // pictureBox1
             // 
