@@ -22,5 +22,11 @@ namespace SchoolManagement
             Student st = new Student();
             st.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Subject sj = new Subject();
+            sj.Show();
+        }
     }
 }

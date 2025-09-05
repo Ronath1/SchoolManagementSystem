@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SchoolManagement
 {
@@ -15,6 +17,83 @@ namespace SchoolManagement
         public Subject()
         {
             InitializeComponent();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("insert into subtab values(@subjectid,@subjectname)", con);
+            cnn.Parameters.AddWithValue("@Subjectid", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@SubjectName", textBox2.Text);
+            
+            cnn.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Data Saved Successfully", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("select * from subtab", con);
+            SqlDataAdapter da = new SqlDataAdapter(cnn);
+            DataTable table = new DataTable();
+            da.Fill(table);
+            dataGridView1.DataSource = table;
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("update subtab set subjectname=@subjectname where subjectid=@subjectid", con);
+            cnn.Parameters.AddWithValue("@Subjectid", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@SubjectName", textBox2.Text);
+
+            cnn.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Data Updated Successfully", "Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("delete subtab where subjectid=@subjectid", con);
+            cnn.Parameters.AddWithValue("@Subjectid", int.Parse(textBox1.Text));
+
+            cnn.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Data Deleted Successfully", "Delete", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+        }
+
+        private void btnDisplay_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("select * from subtab", con);
+            SqlDataAdapter da = new SqlDataAdapter(cnn);
+            DataTable table = new DataTable();
+            da.Fill(table);
+            dataGridView1.DataSource = table;
+        }
+
+        private void Subject_Load(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("select * from subtab", con);
+            SqlDataAdapter da = new SqlDataAdapter(cnn);
+            DataTable table = new DataTable();
+            da.Fill(table);
+            dataGridView1.DataSource = table;
         }
     }
 }

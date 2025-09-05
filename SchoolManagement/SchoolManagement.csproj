@@ -122,5 +122,8 @@
   <ItemGroup>
     <None Include="Resources\ICP-web-profile.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-590073366-612x612.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
