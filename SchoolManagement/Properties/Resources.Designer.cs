@@ -130,5 +130,16 @@ namespace SchoolManagement.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_d_illustration_of_a_brightly_lit_school_corridor_featuring_lockers_classroom_image_3835323 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-d-illustration-of-a-brightly-lit-school-corridor-featuring-lockers-classr" +
+                        "oom-image_3835323", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

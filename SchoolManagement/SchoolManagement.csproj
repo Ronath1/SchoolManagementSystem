@@ -146,5 +146,8 @@
   <ItemGroup>
     <None Include="Resources\download.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-d-illustration-of-a-brightly-lit-school-corridor-featuring-lockers-classroom-image_3835323.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
