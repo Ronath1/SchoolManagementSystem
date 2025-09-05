@@ -24,7 +24,7 @@ namespace SchoolManagement
             SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
             SqlCommand cnn = new SqlCommand("insert into subtab values(@subjectid,@subjectname)", con);
-            cnn.Parameters.AddWithValue("@Subjectid", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@SubjectId", int.Parse(textBox1.Text));
             cnn.Parameters.AddWithValue("@SubjectName", textBox2.Text);
             
             cnn.ExecuteNonQuery();
@@ -48,7 +48,7 @@ namespace SchoolManagement
             SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
             SqlCommand cnn = new SqlCommand("update subtab set subjectname=@subjectname where subjectid=@subjectid", con);
-            cnn.Parameters.AddWithValue("@Subjectid", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@SubjectId", int.Parse(textBox1.Text));
             cnn.Parameters.AddWithValue("@SubjectName", textBox2.Text);
 
             cnn.ExecuteNonQuery();

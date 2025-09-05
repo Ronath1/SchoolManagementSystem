@@ -51,8 +51,8 @@ namespace SchoolManagement
             SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
             SqlCommand cnn = new SqlCommand("insert into studentab values(@studentid,@studentname,@dob,@gender,@phone,@email)", con);
-            cnn.Parameters.AddWithValue("@Studentid", int.Parse(textBox1.Text));
-            cnn.Parameters.AddWithValue("@Studentname", textBox2.Text);
+            cnn.Parameters.AddWithValue("@StudentId", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@StudentName", textBox2.Text);
             cnn.Parameters.AddWithValue("@Dob", dateTimePicker1.Value);
             cnn.Parameters.AddWithValue("@Gender", textBox3.Text);
             cnn.Parameters.AddWithValue("@Phone", textBox4.Text);
@@ -79,8 +79,8 @@ namespace SchoolManagement
             SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
             SqlCommand cnn = new SqlCommand("update studentab set studentname=@studentname,dob=@dob,gender=@gender,phone=@phone,email=@email where studentid=@studentid", con);
-            cnn.Parameters.AddWithValue("@Studentid", int.Parse(textBox1.Text));
-            cnn.Parameters.AddWithValue("@Studentname", textBox2.Text);
+            cnn.Parameters.AddWithValue("@StudentId", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@StudentName", textBox2.Text);
             cnn.Parameters.AddWithValue("@Dob", dateTimePicker1.Value);
             cnn.Parameters.AddWithValue("@Gender", textBox3.Text);
             cnn.Parameters.AddWithValue("@Phone", textBox4.Text);

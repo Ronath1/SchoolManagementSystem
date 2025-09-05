@@ -28,5 +28,11 @@ namespace SchoolManagement
             Subject sj = new Subject();
             sj.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Teacher tr = new Teacher();
+            tr.Show();
+        }
     }
 }
