@@ -33,11 +33,6 @@ namespace SchoolManagement
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             dateTimePicker1.CustomFormat = "dd/MM/yyyy";
@@ -93,6 +88,49 @@ namespace SchoolManagement
             cnn.ExecuteNonQuery();
             con.Close();
             MessageBox.Show("Data Updated Successfully", "Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("delete studentab where studentid=@studentid", con);
+            cnn.Parameters.AddWithValue("@Studentid", int.Parse(textBox1.Text));
+            
+            cnn.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Data Deleted Successfully", "Deleted", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox5.Text = "";
+        }
+
+        private void btnDisplay_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("select * from studentab", con);
+            SqlDataAdapter da = new SqlDataAdapter(cnn);
+            DataTable table = new DataTable();
+            da.Fill(table);
+            dataGridView1.DataSource = table;
+        }
+
+
+        private void Student_Load(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("select * from studentab", con);
+            SqlDataAdapter da = new SqlDataAdapter(cnn);
+            DataTable table = new DataTable();
+            da.Fill(table);
+            dataGridView1.DataSource = table;
         }
     }
 }
