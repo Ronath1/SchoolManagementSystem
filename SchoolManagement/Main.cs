@@ -40,5 +40,11 @@ namespace SchoolManagement
             Section sn = new Section();
             sn.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Enrollment et = new Enrollment();
+            et.Show();
+        }
     }
 }

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+//using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SchoolManagement
 {
@@ -41,14 +41,84 @@ namespace SchoolManagement
         {
             SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
             con.Open();
-            SqlCommand cnn = new SqlCommand("insert into teachertab values(@teacherid,@teachername,@gender,@phone)", con);
-            cnn.Parameters.AddWithValue("@TeacherId", int.Parse(textBox1.Text));
-            cnn.Parameters.AddWithValue("@TeacherName", textBox2.Text);
-            cnn.Parameters.AddWithValue("@Gender", textBox3.Text);
-            cnn.Parameters.AddWithValue("@Phone", textBox4.Text);
+            SqlCommand cnn = new SqlCommand("insert into entab values(@eid,@studentname,@section,@enrolldate)", con);
+            cnn.Parameters.AddWithValue("@EId", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@StudentName", textBox2.Text);
+            cnn.Parameters.AddWithValue("@Section", textBox3.Text);
+            cnn.Parameters.AddWithValue("@EnrollDate", dateTimePicker2.Value);
             cnn.ExecuteNonQuery();
             con.Close();
             MessageBox.Show("Data Saved Successfully", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("select * from entab", con);
+            SqlDataAdapter da = new SqlDataAdapter(cnn);
+            DataTable table = new DataTable();
+            da.Fill(table);
+            dataGridView1.DataSource = table;
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("update entab set studentname=@studentname,section=@section,enrolldate=@enrolldate where eid=@eid", con);
+            cnn.Parameters.AddWithValue("@EId", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@StudentName", textBox2.Text);
+            cnn.Parameters.AddWithValue("@Section", textBox3.Text);
+            cnn.Parameters.AddWithValue("@EnrollDate", dateTimePicker2.Value);
+            cnn.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Data Updated Successfully", "Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("delete entab where eid=@eid", con);
+            cnn.Parameters.AddWithValue("@EId", int.Parse(textBox1.Text));
+            
+            cnn.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Data Deleted Successfully", "Delete", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+
+        }
+
+        private void btnDisplay_Click(object sender, EventArgs e)
+        {
+
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("select * from entab", con);
+            SqlDataAdapter da = new SqlDataAdapter(cnn);
+            DataTable table = new DataTable();
+            da.Fill(table);
+            dataGridView1.DataSource = table;
+        }
+
+        private void Enrollment_Load(object sender, EventArgs e)
+        {
+
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("select * from entab", con);
+            SqlDataAdapter da = new SqlDataAdapter(cnn);
+            DataTable table = new DataTable();
+            da.Fill(table);
+            dataGridView1.DataSource = table;
         }
     }
 }
