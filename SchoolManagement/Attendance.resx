@@ -117,38 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pngtree-d-illustration-of-a-brightly-lit-school-corridor-featuring-lockers-classroom-image_3835323" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngtree-d-illustration-of-a-brightly-lit-school-corridor-featuring-lockers-classroom-image_3835323.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ICP-web-profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ICP-web-profile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pngtree-back-to-school-chalkboard-with-supplies-and-math-equations-for-classroom-picture-image_16297416" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngtree-back-to-school-chalkboard-with-supplies-and-math-equations-for-classroom-picture-image_16297416.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="istockphoto-1333508675-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\istockphoto-1333508675-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="attendance-text-written-on-education-background-of-back-to-school-concept-attendance-concept-banner-on-education-sketch-with-school-supplies-attenda-WK41CW" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\attendance-text-written-on-education-background-of-back-to-school-concept-attendance-concept-banner-on-education-sketch-with-school-supplies-attenda-WK41CW.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="istockphoto-590073366-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\istockphoto-590073366-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images11212" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images11212.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="41161929-attendance-word-on-notes-paper-with-cork-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\41161929-attendance-word-on-notes-paper-with-cork-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

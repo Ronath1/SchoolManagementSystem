@@ -63,6 +63,27 @@ namespace SchoolManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _41161929_attendance_word_on_notes_paper_with_cork_background {
+            get {
+                object obj = ResourceManager.GetObject("41161929-attendance-word-on-notes-paper-with-cork-background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap attendance_text_written_on_education_background_of_back_to_school_concept_attendance_concept_banner_on_education_sketch_with_school_supplies_attenda_WK41CW {
+            get {
+                object obj = ResourceManager.GetObject("attendance-text-written-on-education-background-of-back-to-school-concept-attenda" +
+                        "nce-concept-banner-on-education-sketch-with-school-supplies-attenda-WK41CW", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download {
             get {
                 object obj = ResourceManager.GetObject("download", resourceCulture);
@@ -106,6 +127,16 @@ namespace SchoolManagement.Properties {
         internal static System.Drawing.Bitmap images11212 {
             get {
                 object obj = ResourceManager.GetObject("images11212", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1333508675_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1333508675-612x612", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance.Designer.cs">
+      <DependentUpon>Attendance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Enrollment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     <Compile Include="Teacher.Designer.cs">
       <DependentUpon>Teacher.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Attendance.resx">
+      <DependentUpon>Attendance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Enrollment.resx">
       <DependentUpon>Enrollment.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,6 +166,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pngtree-d-illustration-of-a-brightly-lit-school-corridor-featuring-lockers-classroom-image_3835323.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1333508675-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance-text-written-on-education-background-of-back-to-school-concept-attendance-concept-banner-on-education-sketch-with-school-supplies-attenda-WK41CW.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41161929-attendance-word-on-notes-paper-with-cork-background.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
