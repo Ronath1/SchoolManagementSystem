@@ -46,5 +46,11 @@ namespace SchoolManagement
             Enrollment et = new Enrollment();
             et.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Attendance ae = new Attendance();
+            ae.Show();
+        }
     }
 }
