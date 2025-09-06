@@ -249,6 +249,7 @@
             this.Name = "Attendance";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Attendance";
+            this.Load += new System.EventHandler(this.Attendance_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panel1.ResumeLayout(false);

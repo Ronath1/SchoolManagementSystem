@@ -86,5 +86,17 @@ namespace SchoolManagement
             da.Fill(table);
             dataGridView1.DataSource = table;
         }
+
+        private void Attendance_Load(object sender, EventArgs e)
+        {
+
+            SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("select * from attentab", con);
+            SqlDataAdapter da = new SqlDataAdapter(cnn);
+            DataTable table = new DataTable();
+            da.Fill(table);
+            dataGridView1.DataSource = table;
+        }
     }
 }
