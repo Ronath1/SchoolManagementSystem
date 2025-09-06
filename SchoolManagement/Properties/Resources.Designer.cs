@@ -134,6 +134,17 @@ namespace SchoolManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap info_user_profile_account_hearing_login_avatar_user_interface_icon_design_conversation_user {
+            get {
+                object obj = ResourceManager.GetObject("info-user-profile-account-hearing-login-avatar-user-interface-icon-design-convers" +
+                        "ation-user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1333508675_612x612 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1333508675-612x612", resourceCulture);
@@ -147,6 +158,16 @@ namespace SchoolManagement.Properties {
         internal static System.Drawing.Bitmap istockphoto_590073366_612x612 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-590073366-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap peach_abstract_watercolor_texture_background_beige_watercolour_pattern_vector {
+            get {
+                object obj = ResourceManager.GetObject("peach-abstract-watercolor-texture-background-beige-watercolour-pattern-vector", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

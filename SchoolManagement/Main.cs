@@ -52,5 +52,11 @@ namespace SchoolManagement
             Attendance ae = new Attendance();
             ae.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Dashboard dd = new Dashboard();
+            dd.Show();
+        }
     }
 }

@@ -52,6 +52,12 @@
     <Compile Include="Attendance.Designer.cs">
       <DependentUpon>Attendance.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Enrollment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </Compile>
     <EmbeddedResource Include="Attendance.resx">
       <DependentUpon>Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Enrollment.resx">
       <DependentUpon>Enrollment.cs</DependentUpon>
@@ -175,6 +184,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\41161929-attendance-word-on-notes-paper-with-cork-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info-user-profile-account-hearing-login-avatar-user-interface-icon-design-conversation-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peach-abstract-watercolor-texture-background-beige-watercolour-pattern-vector.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
