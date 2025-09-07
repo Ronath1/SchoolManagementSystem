@@ -37,13 +37,13 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.IblCount = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.IblCount1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.IblCount2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.IblCount3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -98,7 +98,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.IblCount);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Location = new System.Drawing.Point(233, 95);
             this.panel3.Name = "panel3";
@@ -108,7 +108,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.panel4.Controls.Add(this.label5);
+            this.panel4.Controls.Add(this.IblCount1);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Location = new System.Drawing.Point(505, 95);
             this.panel4.Name = "panel4";
@@ -118,7 +118,7 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.panel5.Controls.Add(this.label7);
+            this.panel5.Controls.Add(this.IblCount2);
             this.panel5.Controls.Add(this.label6);
             this.panel5.Location = new System.Drawing.Point(233, 333);
             this.panel5.Name = "panel5";
@@ -128,7 +128,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.panel6.Controls.Add(this.label9);
+            this.panel6.Controls.Add(this.IblCount3);
             this.panel6.Controls.Add(this.label8);
             this.panel6.Location = new System.Drawing.Point(505, 333);
             this.panel6.Name = "panel6";
@@ -146,17 +146,17 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Students:";
             // 
-            // label3
+            // IblCount
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(143, 41);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(27, 29);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "0";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.IblCount.AutoSize = true;
+            this.IblCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblCount.ForeColor = System.Drawing.Color.White;
+            this.IblCount.Location = new System.Drawing.Point(143, 41);
+            this.IblCount.Name = "IblCount";
+            this.IblCount.Size = new System.Drawing.Size(27, 29);
+            this.IblCount.TabIndex = 1;
+            this.IblCount.Text = "0";
+            this.IblCount.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -165,20 +165,20 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(17, 41);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 29);
+            this.label4.Size = new System.Drawing.Size(121, 29);
             this.label4.TabIndex = 1;
-            this.label4.Text = "Courses:";
+            this.label4.Text = "Subjects:";
             // 
-            // label5
+            // IblCount1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(140, 41);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(27, 29);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "0";
+            this.IblCount1.AutoSize = true;
+            this.IblCount1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblCount1.ForeColor = System.Drawing.Color.White;
+            this.IblCount1.Location = new System.Drawing.Point(140, 41);
+            this.IblCount1.Name = "IblCount1";
+            this.IblCount1.Size = new System.Drawing.Size(27, 29);
+            this.IblCount1.TabIndex = 2;
+            this.IblCount1.Text = "0";
             // 
             // label6
             // 
@@ -192,16 +192,16 @@
             this.label6.Text = "Teachers:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // label7
+            // IblCount2
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(151, 41);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(27, 29);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "0";
+            this.IblCount2.AutoSize = true;
+            this.IblCount2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblCount2.ForeColor = System.Drawing.Color.White;
+            this.IblCount2.Location = new System.Drawing.Point(151, 41);
+            this.IblCount2.Name = "IblCount2";
+            this.IblCount2.Size = new System.Drawing.Size(27, 29);
+            this.IblCount2.TabIndex = 2;
+            this.IblCount2.Text = "0";
             // 
             // label8
             // 
@@ -215,16 +215,16 @@
             this.label8.Text = "Enrollment:";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // label9
+            // IblCount3
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(169, 41);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(27, 29);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "0";
+            this.IblCount3.AutoSize = true;
+            this.IblCount3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblCount3.ForeColor = System.Drawing.Color.White;
+            this.IblCount3.Location = new System.Drawing.Point(169, 41);
+            this.IblCount3.Name = "IblCount3";
+            this.IblCount3.Size = new System.Drawing.Size(27, 29);
+            this.IblCount3.TabIndex = 2;
+            this.IblCount3.Text = "0";
             // 
             // Dashboard
             // 
@@ -242,6 +242,7 @@
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -265,16 +266,16 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label IblCount;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label IblCount1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label IblCount2;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label IblCount3;
         private System.Windows.Forms.Label label8;
     }
 }
