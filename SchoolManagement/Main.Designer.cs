@@ -65,7 +65,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Red;
+            this.panel2.BackColor = System.Drawing.Color.Salmon;
             this.panel2.Controls.Add(this.button7);
             this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.button5);
