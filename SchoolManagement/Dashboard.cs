@@ -42,6 +42,9 @@ namespace SchoolManagement
         private void Dashboard_Load(object sender, EventArgs e)
         {
             display();
+            display1();
+            display2();
+            display3();
         }
         private void display() 
         {
