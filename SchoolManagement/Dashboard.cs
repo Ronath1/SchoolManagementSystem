@@ -90,7 +90,7 @@ namespace SchoolManagement
             Int32 count = Convert.ToInt32(cmd.ExecuteScalar());
             if (count > 0)
             {
-                IblCount.Text = count.ToString(count.ToString());
+                IblCount2.Text = count.ToString(count.ToString());
             }
             else
             {
