@@ -93,13 +93,8 @@ This system uses a SQL Server database named **`schooldb`** with the following m
 
 ## Screenshots
 
-*(Add screenshots of login page, dashboard, forms, and reports here)*
+![Uploading 41161929-attendance-word-on-notes-paper-with-cork-background.jpg…]()
 
-Example placeholders:
-
-* ![Login Page](screenshots/login.png)
-* ![Dashboard](screenshots/dashboard.png)
-* ![Student Management](screenshots/student-management.png)
 
 ---
 
