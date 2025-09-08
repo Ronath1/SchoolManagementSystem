@@ -72,7 +72,7 @@ This system uses a SQL Server database named **`schooldb`** with the following m
    * In `Student.cs` (and other related files), update the connection string:
 
    ```csharp
-   SqlConnection con = new SqlConnection(@"Data Source=YOUR_SERVER_NAME\SQLEXPRESS;Initial Catalog=schooldb;Integrated Security=True");
+   SqlConnection con = new SqlConnection(@"Data Source=RONATH\sqlexpress;Initial Catalog=schooldb;Integrated Security=True");
    ```
 
 5. **Build and Run**
