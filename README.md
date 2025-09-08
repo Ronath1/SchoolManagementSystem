@@ -1,6 +1,4 @@
-Here’s a **more detailed README.md** for your **School Management System (C#.NET + SQL Server)** with full explanations, setup details, and placeholders for visuals:
 
----
 
 # School Management System
 
