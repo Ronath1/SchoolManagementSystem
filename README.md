@@ -93,7 +93,7 @@ This system uses a SQL Server database named **`schooldb`** with the following m
 
 ## Screenshots
 
-![Login Page](screenshots/admin login.jpg)
+![Login Page](screenshots/admin_login.jpg)
 ![Dashboard](screenshots/Main.jpg)
 ![Student Management](screenshots/student.jpg)
 ![Teacher Management](screenshots/teacher.jpg)
@@ -102,7 +102,7 @@ This system uses a SQL Server database named **`schooldb`** with the following m
 ![Enrollment Page](screenshots/enrollment.jpg)
 ![Sections Management](screenshots/section.jpg)
 ![Admin Dashboard](screenshots/dashboard.jpg)
-![DataBase Structure](screenshots/databse tree.jpg)
+![DataBase Structure](screenshots/databse_tree.jpg)
 
 
 
