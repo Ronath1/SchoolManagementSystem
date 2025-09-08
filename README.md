@@ -94,16 +94,17 @@ This system uses a SQL Server database named **`schooldb`** with the following m
 ## Screenshots
 
 
-<img src="screenshots/admin_login.jpg" alt="Login Page"  width="350"/>   <img src="screenshots/Main.jpg" alt="Dashboard" width="350"/>   <img src="screenshots/student.jpg" alt="Student Management" width="350"/>
+<img src="screenshots/admin_login.jpg" alt="Login Page"  width="400"/>   <img src="screenshots/Main.jpg" alt="Dashboard" width="400"/>  
+<img src="screenshots/student.jpg" alt="Student Management" width="400"/>  <img src="screenshots/teacher.jpg" alt="Teacher Management" width="400"/>
+<img src="screenshots/subject.jpg" alt="Subject Management" width="400"/>   <img src="screenshots/attendance.jpg" alt="Attendance Page" width="400"/>
+<img src="screenshots/enrollment.jpg" alt="Enrollment Page" width="400"/>   <img src="screenshots/section.jpg" alt="Sections Management" width="400"/>
+<img src="screenshots/dashboard.jpg" alt="Admin Dashboard" width="400"/>   <img src="screenshots/database_tree.jpg" alt="Database Structure" width="400"/>
 
 
-<img src="screenshots/teacher.jpg" alt="Teacher Management" width="400"/>
-<img src="screenshots/subject.jpg" alt="Subject Management" width="400"/>
-<img src="screenshots/attendance.jpg" alt="Attendance Page" width="400"/>
-<img src="screenshots/enrollment.jpg" alt="Enrollment Page" width="400"/>
-<img src="screenshots/section.jpg" alt="Sections Management" width="400"/>
-<img src="screenshots/dashboard.jpg" alt="Admin Dashboard" width="400"/>
-<img src="screenshots/database_tree.jpg" alt="Database Structure" width="400"/>
+
+
+
+
 
 
 
