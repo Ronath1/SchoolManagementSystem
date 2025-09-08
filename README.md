@@ -93,6 +93,15 @@ This system uses a SQL Server database named **`schooldb`** with the following m
 
 ## Screenshots
 
+![Login Page](screenshots/login.png)
+![Dashboard](screenshots/dashboard.png)
+![Student Management](screenshots/student_management.png)
+![Teacher Management](screenshots/teacher_management.png)
+![Subject Management](screenshots/subject_management.png)
+![Attendance Page](screenshots/attendance.png)
+![Enrollment Page](screenshots/enrollment.png)
+![Sections Management](screenshots/sections.png)
+![Admin Dashboard](screenshots/admin_dashboard.png)
 
 
 
