@@ -94,7 +94,7 @@ This system uses a SQL Server database named **`schooldb`** with the following m
 ## Screenshots
 
 
-<img src="screenshots/admin_login.jpg" alt="Login Page" width="400"/>   <img src="screenshots/Main.jpg" alt="Dashboard" width="400"/>   <img src="screenshots/student.jpg" alt="Student Management" width="400"/>
+<img src="screenshots/admin_login.jpg" alt="Login Page" height="100" width="400"/>   <img src="screenshots/Main.jpg" alt="Dashboard" width="400"/>   <img src="screenshots/student.jpg" alt="Student Management" width="400"/>
 
 
 <img src="screenshots/teacher.jpg" alt="Teacher Management" width="400"/>
