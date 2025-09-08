@@ -93,7 +93,7 @@ This system uses a SQL Server database named **`schooldb`** with the following m
 
 ## Screenshots
 
-![Uploading 41161929-attendance-word-on-notes-paper-with-cork-background.jpg…]()
+
 
 
 ---
