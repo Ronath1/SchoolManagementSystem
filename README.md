@@ -102,7 +102,7 @@ This system uses a SQL Server database named **`schooldb`** with the following m
 
 
 
-## Future Improvements
+
 
 
   
