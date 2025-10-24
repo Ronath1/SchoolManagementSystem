@@ -104,7 +104,7 @@ This system uses a SQL Server database named **`schooldb`** with the following m
 
 ## Future Improvements
 
-* Role-based access for teachers and students.
+
   
 
 
